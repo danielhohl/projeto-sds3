@@ -1,2 +1,0 @@
-INDEX VERSION 1.131+D:\workspace\ws-devsuperior\projeto-sds3\.metadata\.plugins\org.eclipse.jdt.core
-1445612918.index
