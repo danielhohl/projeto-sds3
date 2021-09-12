@@ -21,8 +21,7 @@ const Home = () => {
                     Acessar o dashboard
                 </Link>
             </div>
-        </div>
-        
+        </div>       
         <Footer />
         </>
     );
