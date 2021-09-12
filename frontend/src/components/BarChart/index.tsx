@@ -10,7 +10,7 @@ type SeriesData = {
     data: number[];
 }
 
-type chartData = {
+type ChartData = {
     labels: {
         categories: string[];
     };
@@ -19,7 +19,7 @@ type chartData = {
 
 const BarChart = () => {
 
-    const [chartData, setChartData] = useState<chartData>({
+    const [chartData, setChartData] = useState<ChartData>({
         labels: {
             categories: []
         },
@@ -36,7 +36,7 @@ const BarChart = () => {
         .then((response) => {
             const data = response.data as SaleSuccess[];
             const myLabels = data.map(x => x.sellerName);
-            const mySeries = data.map(x => round(100.0 * x.deals / x.visited,1));
+            const mySeries = data.map(x => round(100.0 * x.deals / x.visited, 1));
 
             setChartData({
                 labels: {
