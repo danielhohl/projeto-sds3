@@ -34,7 +34,9 @@ import DonutChart from "components/DonutChart";
   
             <DataTable/>
         </div>
+        
         <Footer />
+        
       </>
     );
   }
