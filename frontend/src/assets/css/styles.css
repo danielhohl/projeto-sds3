@@ -19,7 +19,7 @@ html, body {
 }
 
 .footer {
-    align-items: baseline;
+    align-items: bottom;
     flex-shrink: 0;
     text-align: center;
 }
