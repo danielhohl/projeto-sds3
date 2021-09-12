@@ -1,6 +1,6 @@
 import NavBar from "components/NavBar";
 import Footer from "components/NavBar";
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 
 import BarChart from "components/BarChart";
 import DataTable from "components/DataTable";

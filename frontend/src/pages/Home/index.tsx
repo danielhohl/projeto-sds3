@@ -2,9 +2,9 @@ import NavBar from "components/NavBar";
 import Footer from "components/NavBar";
 import { Link } from "react-router-dom";
 
-import BarChart from "components/BarChart";
-import DataTable from "components/DataTable";
-import DonutChart from "components/DonutChart";
+//import BarChart from "components/BarChart";
+//import DataTable from "components/DataTable";
+//import DonutChart from "components/DonutChart";
 
 
 const Home = () => {
