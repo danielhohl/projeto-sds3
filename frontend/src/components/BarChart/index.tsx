@@ -18,7 +18,7 @@ type ChartData = {
 }
 
 const BarChart = () => {
-
+    /*
     const [chartData, setChartData] = useState<ChartData>({
         labels: {
             categories: []
@@ -52,7 +52,7 @@ const BarChart = () => {
             //console.log(chartData);
         });
      } , []);
-
+*/
     const options = {
         plotOptions: {
             bar: {
@@ -61,7 +61,7 @@ const BarChart = () => {
         },
     };
 
-    /*const mockData = {
+    const mockData = {
         labels: {
             categories: ['Anakin', 'Barry Allen', 'Kal-El', 'Logan', 'Padmé']
         },
@@ -71,12 +71,12 @@ const BarChart = () => {
                 data: [43.6, 67.1, 67.7, 45.6, 71.1]
             }
         ]
-    };*/
+    };
 
     return (
         <Chart
-            options={{...options, xaxis: chartData.labels}}
-            series = { chartData.series }
+            options={{...options, xaxis: mockData.labels}}
+            series = { mockData.series }
             type = "bar"
             height = "240"
         />
